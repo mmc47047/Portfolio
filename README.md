@@ -14,3 +14,51 @@
     </td>
   </tr>
 </tbody></table></markdown-accessiblity-table>
+
+## 🛠️ 기술 스택
+C C++ Python Java Arduino Raspberry Pi MariaDB MySQL Git GitHub Linux
+
+### 🔹 Programming Language
+- **C / C++**
+  - MCU 제어 및 센서 데이터 처리 펌웨어 구현
+  - UART, PWM 등 주변장치 제어 경험
+- **Python**
+  - 데이터 처리 및 간단한 AI·Edge AIoT 알고리즘 구현
+  - ROS2 노드 개발 및 시스템 연동
+
+### 🔹 Embedded / Hardware
+- **Arduino / Raspberry Pi**
+  - 센서 인터페이스 구성 및 시리얼 통신 구현
+  - GPIO 제어 기반 IoT 프로토타입 제작
+- **STM32 (CubeMX / CubeIDE)**
+  - 핀맵·클록 설정 및 HAL 기반 펌웨어 개발
+  - UART, PWM 등 주변장치 설정 및 디버깅 경험
+
+### 🔹 OS / Platform
+- **Linux (Ubuntu)**
+  - 터미널 기반 개발 환경 구축
+  - gcc / make 활용한 빌드 경험
+  - BSP 실습을 통한 OS 구조 및 파일 시스템 이해
+
+### 🔹 AI / Robotics / Vision
+- **ROS2**
+  - Topic 기반 메시지 통신 구조 설계
+  - ROS2 노드 및 브리지 노드 개발 경험
+- **OpenCV**
+  - 영상 처리 및 객체 인식 전처리
+- **Edge AI**
+  - 임베디드 환경에서 AI 모델 활용 및 시스템 연동 경험
+
+### 🔹 Communication / Network
+- **UART / Bluetooth**
+  - Raspberry Pi ↔ STM32 간 통신 인터페이스 구축
+- **UDP Multicast**
+  - V2X 이벤트 수신 및 데이터 전송 구현
+- **IoT / AIoT**
+  - 센서·네트워크·AI가 결합된 시스템 설계 경험
+
+### 🔹 Tools & Collaboration
+- **Git / GitHub**
+  - 형상 관리 및 협업 기반 프로젝트 수행
+- **Docker**
+  - 개발 환경 컨테이너화 및 실행 자동화
