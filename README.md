@@ -63,3 +63,45 @@
   - 형상 관리 및 협업 기반 프로젝트 수행
 - **Docker**
   - 개발 환경 컨테이너화 및 실행 자동화
+ 
+### 🧠 Desk Manager
+
+> 임베디드 환경 감지 기반 Pomodoro 집중력 관리 시스템  
+>
+>   * 개발기간 : 2025.08  
+>   * 핵심 역할 : FreeRTOS 태스크 설계, Pomodoro 타이머 로직 구현, 센서 인터페이스 및 UI 제어  
+>   * Language : C  
+>   * Skill : STM32, FreeRTOS, ADC, EXTI, LCD1602, Keypad, Buzzer  
+>
+> [프로젝트 상세 페이지](https://github.com/mmc47047/DeskManager/tree/main)
+
+---
+
+### ☕ Study Cafe Manager
+
+> IoT 기반 스터디카페 좌석 예약 및 환경 관리 시스템  
+>
+>   * 개발기간 : 2025.08  
+>   * 핵심 역할 : STM32 디바이스 제어, 블루투스 통신 처리, LCD UI 구현, 시스템 통합  
+>   * Language : C, Python  
+>   * Skill : STM32, Raspberry Pi, Bluetooth(HC-05), MariaDB, Linux, LCD1602  
+>
+> [프로젝트 상세 페이지](https://github.com/mmc47047/StudyCafeManager/tree/main)
+
+---
+
+### 🚗 AlphaCar
+
+> 주변 상황 인식 및 위험 예측 기반 스마트 자동차 시스템  
+>
+>   * 개발기간 : 2025.09 ~ 2025.10  
+>   * 핵심 역할 : 멀티캐스트 통신, 시스템 자동화 스크립트, ROS2 기반 시스템 통합  
+>   * Language : Python, C/C++  
+>   * Skill : ROS2, Docker, CARLA Simulator, Raspberry Pi, 멀티캐스트 통신  
+>
+> [프로젝트 상세 페이지](https://github.com/mmc47047/alphacar/blob/main/README.md)
+
+## 📬 연락처
+
+- **Email** : kimyoungyo4545@gmail.com  
+- **GitHub** : https://github.com/mmc47047
