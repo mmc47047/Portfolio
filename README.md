@@ -64,16 +64,29 @@
 - **Docker**
   - 개발 환경 컨테이너화 및 실행 자동화
  
-### 🧠 Desk Manager
+### 📡 QoS-Aware Autonomous Mobile Mesh Relay System (대표 프로젝트)
 
-> 임베디드 환경 감지 기반 Pomodoro 집중력 관리 시스템  
+>재난·통신 음영 환경에서 통신 품질 저하를 감지하면
+>중계 로봇이 스스로 이동하여 메시 네트워크를 복구하는 자율 중계 시스템
 >
->   * 개발기간 : 2025.08  
->   * 핵심 역할 : FreeRTOS 태스크 설계, Pomodoro 타이머 로직 구현, 센서 인터페이스 및 UI 제어  
->   * Language : C  
->   * Skill : STM32, FreeRTOS, ADC, EXTI, LCD1602, Keypad, Buzzer  
+> * 개발기간 : 2025.11 ~ 2026.01
+> * 핵심 역할 : 통신 품질(TQ/RSSI) 기반 연결 인식 내비게이션 알고리즘 설계, BATMAN-ADV 메시 네트워크 상태를 ROS2 제어 루프에 연동
+> * Language : Python, C/C++
+> * Skill : ROS2, BATMAN-ADV, Linux Networking, TurtleBot3, Raspberry Pi, Qt
+> [프로젝트 상세 페이지](https://github.com/mmc47047/Relay_Bot/tree/main)
+
+---
+
+### 🚗 AlphaCar
+
+> 주변 상황 인식 및 위험 예측 기반 스마트 자동차 시스템  
 >
-> [프로젝트 상세 페이지](https://github.com/mmc47047/DeskManager/tree/main)
+>   * 개발기간 : 2025.09 ~ 2025.10  
+>   * 핵심 역할 : 멀티캐스트 통신, 시스템 자동화 스크립트, ROS2 기반 시스템 통합  
+>   * Language : Python, C/C++  
+>   * Skill : ROS2, Docker, CARLA Simulator, Raspberry Pi, 멀티캐스트 통신  
+>
+> [프로젝트 상세 페이지](https://github.com/mmc47047/alphacar/blob/main/README.md)
 
 ---
 
@@ -89,17 +102,18 @@
 > [프로젝트 상세 페이지](https://github.com/mmc47047/StudyCafeManager/tree/main)
 
 ---
+ 
+### 🧠 Desk Manager
 
-### 🚗 AlphaCar
+> 임베디드 환경 감지 기반 Pomodoro 집중력 관리 시스템  
+>
+>   * 개발기간 : 2025.08  
+>   * 핵심 역할 : FreeRTOS 태스크 설계, Pomodoro 타이머 로직 구현, 센서 인터페이스 및 UI 제어  
+>   * Language : C  
+>   * Skill : STM32, FreeRTOS, ADC, EXTI, LCD1602, Keypad, Buzzer  
+>
+> [프로젝트 상세 페이지](https://github.com/mmc47047/DeskManager/tree/main)
 
-> 주변 상황 인식 및 위험 예측 기반 스마트 자동차 시스템  
->
->   * 개발기간 : 2025.09 ~ 2025.10  
->   * 핵심 역할 : 멀티캐스트 통신, 시스템 자동화 스크립트, ROS2 기반 시스템 통합  
->   * Language : Python, C/C++  
->   * Skill : ROS2, Docker, CARLA Simulator, Raspberry Pi, 멀티캐스트 통신  
->
-> [프로젝트 상세 페이지](https://github.com/mmc47047/alphacar/blob/main/README.md)
 
 ## 📬 연락처
 
