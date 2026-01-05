@@ -73,6 +73,7 @@
 > * 핵심 역할 : 통신 품질(TQ/RSSI) 기반 연결 인식 내비게이션 알고리즘 설계, BATMAN-ADV 메시 네트워크 상태를 ROS2 제어 루프에 연동
 > * Language : Python, C/C++
 > * Skill : ROS2, BATMAN-ADV, Linux Networking, TurtleBot3, Raspberry Pi, Qt
+> 
 > [프로젝트 상세 페이지](https://github.com/mmc47047/Relay_Bot/tree/main)
 
 ---
