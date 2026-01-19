@@ -64,6 +64,20 @@
 - **Docker**
   - 개발 환경 컨테이너화 및 실행 자동화
  
+### 🎹 RTOS 기반 디지털 신디사이저
+
+> RTOS 환경에서 실시간 오디오를 생성하고
+>TFT LCD UI로 ADSR / Filter / 파형을 제어하는
+> STM32 기반 디지털 신디사이저
+> 
+> * 개발기간 : 2026.01
+> * 핵심 역할 : TFT LCD(UI) 설계 및 ADSR/Filter/파형 시각화 구현, RTOS 기반 LCD Task 분리 및 입력 이벤트 연동 로직 설계
+> * Language : C, C++
+> * Skill : FreeRTOS, STM32F411, I2S + DMA, SPI TFT LCD, Embedded UI, RTOS 구조 분리 / 최적화
+>
+> [프로젝트 상세 페이지](https://github.com/mmc47047/SYNTH_RTOS_BLACKPILL)
+---
+ 
 ### 📡 QoS-Aware Autonomous Mobile Mesh Relay System (대표 프로젝트)
 
 >재난·통신 음영 환경에서 통신 품질 저하를 감지하면
