@@ -16,16 +16,34 @@
 </tbody></table></markdown-accessiblity-table>
 
 ## 🛠️ 기술 스택
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python) ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java) ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino) ![Raspberry%20Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
+**🔥 Main**
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00979D?style=for-the-badge)
+![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros)
+
+**⚙️ System / Platform**
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Raspberry%20Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
+
+**🧰 Sub / Utilization**
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino)
+
 
 
 ### 🔹 Programming Language
 - **C / C++**
   - MCU 제어 및 센서 데이터 처리 펌웨어 구현
-  - UART, PWM 등 주변장치 제어 경험
+  - STM32 기반 RTOS 펌웨어 개발
+  - DMA, 인터럽트, 타이머, GPIO, UART, I2S 등 하드웨어 제어 경험
 - **Python**
   - 데이터 처리 및 간단한 AI·Edge AIoT 알고리즘 구현
-  - ROS2 노드 개발 및 시스템 연동
+  - ROS2 노드 개발 및 네트워크 통신(UDP Multicast, 소켓) 기반 시스템 연동
 
 ### 🔹 Embedded / Hardware
 - **Arduino / Raspberry Pi**
@@ -34,21 +52,44 @@
 - **STM32 (CubeMX / CubeIDE)**
   - 핀맵·클록 설정 및 HAL 기반 펌웨어 개발
   - UART, PWM 등 주변장치 설정 및 디버깅 경험
+  - FreeRTOS 기반 멀티 태스크 설계
+  - I2S + DMA(Circular) 기반 실시간 오디오 파이프라인 구현
+  - 인터럽트 최소화 + Task Notify 구조 설계
 
 ### 🔹 OS / Platform
 - **Linux (Ubuntu)**
-  - 터미널 기반 개발 환경 구축
+  - 터미널 기반 임베디드 개발 환경 구축
   - gcc / make 활용한 빌드 경험
   - BSP 실습을 통한 OS 구조 및 파일 시스템 이해
+  - 시스템 서비스(systemd), 쉘 스크립트 자동화
+- **Raspberry Pi**
+  - ROS2 Gateway / Edge Node 구성
+  - STM32와 UART·Bluetooth 연동
+  - 멀티 프로세스 기반 시스템 운용
 
-### 🔹 AI / Robotics / Vision
+### 🔹 RTOS / System Architecture
+- **FreeRTOS**
+  - Audio Task / UI Task / Control Task 분리 설계
+  - DMA ISR 최소화 → Task 중심 실시간 처리 구조
+  - Queue / TaskNotify 기반 이벤트 처리
+
+### 🔹 Robotics / Middleware
 - **ROS2**
   - Topic 기반 메시지 통신 구조 설계
   - ROS2 노드 및 브리지 노드 개발 경험
+  - 차량/로봇 제어 루프와 네트워크 이벤트 연동
+- **ROS2 + Embedded 연계**
+  - Raspberry Pi ↔ STM32 명령 전달 구조 설계
+  - ROS2 → Embedded 제어 파이프라인 구축
+
+### 🔹 Vision / Edge AI
 - **OpenCV**
   - 영상 처리 및 객체 인식 전처리
+  - 서버·엣지 환경에서 이벤트 트리거용 활용
 - **Edge AI**
   - 임베디드 환경에서 AI 모델 활용 및 시스템 연동 경험
+  - AI 결과를 ROS2/임베디드 시스템과 연동
+  - “AI 모델 개발”보다는 시스템 통합 관점
 
 ### 🔹 Communication / Network
 - **UART / Bluetooth**
@@ -57,6 +98,9 @@
   - V2X 이벤트 수신 및 데이터 전송 구현
 - **IoT / AIoT**
   - 센서·네트워크·AI가 결합된 시스템 설계 경험
+- **BATMAN-ADV Mesh Network**
+  - TQ/RSSI 기반 네트워크 상태 인식
+  - 메시 네트워크 자율 복구 로직 설계
 
 ### 🔹 Tools & Collaboration
 - **Git / GitHub**
