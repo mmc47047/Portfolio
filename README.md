@@ -179,6 +179,7 @@
 > * Language : TypeScript, JavaScript, SQL
 > * Skill : n8n, Supabase, OpenAI API, RAG, Vector Store, Next.js
 >
+> [Live Demo](https://consultant-web-beryl.vercel.app/) 
 > [프로젝트 상세 페이지](https://github.com/mmc47047/AI-Telecom-Consultant-Agent)
 
 ---
