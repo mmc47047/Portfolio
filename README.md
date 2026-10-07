@@ -23,6 +23,10 @@
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00979D?style=for-the-badge)
 ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 **⚙️ System / Platform**
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -109,6 +113,20 @@
 - **Docker**
   - 개발 환경 컨테이너화 및 실행 자동화
  
+### 🔹 AI Agent / Workflow
+- **n8n / OpenAI API**
+  - 고객 분석·상품 추천·상담 결과 처리·프로모션 타기팅 워크플로우 구현
+  - Structured Output Parser 기반 LLM 출력 구조화
+  - 기능별 서브 워크플로우와 메인 Webhook Gateway 연계
+- **RAG / Supabase Vector Store**
+  - 프로모션 문서 임베딩 및 Vector Search 기반 관련 정보 검색
+  - 검색된 조건과 고객 데이터를 결합한 프로모션 대상 자동 선별
+- **Supabase**
+  - 고객·상담·분석·일정 데이터 조회 및 저장
+  - AI Agent 간 데이터 흐름과 후속 프로세스 연계
+ 
+---
+ 
 ### 🎹 RTOS 기반 디지털 신디사이저
 
 > RTOS 환경에서 실시간 오디오를 생성하고
@@ -147,6 +165,21 @@
 >   * Skill : ROS2, Docker, CARLA Simulator, Raspberry Pi, 멀티캐스트 통신  
 >
 > [프로젝트 상세 페이지](https://github.com/mmc47047/alphacar/blob/main/README.md)
+
+---
+
+### 🤖 AI Telecom Consultant Agent
+
+> 통신 매장 상담 업무를 지원하기 위해 고객 등록부터 분석·추천·상담 후속관리·프로모션 타기팅·메시지 발송까지 연결한 AI Agent 기반 상담 지원 시스템
+>
+> * 개발기간 : 2026.09 ~ 2026.10
+> * 프로젝트 형태 : Team Project
+> * 핵심 역할 : 고객 분석·맞춤 추천·상담 결과 처리·프로모션 대상 선정 AI Agent 구현, n8n-Supabase 간 데이터 연계 및 RAG 파이프라인 구성
+> * 주요 구현 : Supabase Vector Store 기반 프로모션 문서 검색, Structured Output Parser 기반 LLM 출력 구조화, 고객 조건 기반 프로모션 대상 자동 선별
+> * Language : TypeScript, JavaScript, SQL
+> * Skill : n8n, Supabase, OpenAI API, RAG, Vector Store, Next.js
+>
+> [프로젝트 상세 페이지](https://github.com/mmc47047/AI-Telecom-Consultant-Agent)
 
 ---
 
