@@ -138,7 +138,7 @@
 > * Language : C, C++
 > * Skill : FreeRTOS, STM32F411, I2S + DMA, SPI TFT LCD, Embedded UI, RTOS 구조 분리 / 최적화
 >
-> [프로젝트 상세 페이지](https://github.com/mmc47047/SYNTH_RTOS_BLACKPILL)
+> 📂 [프로젝트 상세 페이지](https://github.com/mmc47047/SYNTH_RTOS_BLACKPILL)
 ---
  
 ### 📡 QoS-Aware Autonomous Mobile Mesh Relay System (대표 프로젝트)
@@ -151,7 +151,7 @@
 > * Language : Python, C/C++
 > * Skill : ROS2, BATMAN-ADV, Linux Networking, TurtleBot3, Raspberry Pi, Qt
 > 
-> [프로젝트 상세 페이지](https://github.com/mmc47047/Relay_Bot/tree/main)
+> 📂 [프로젝트 상세 페이지](https://github.com/mmc47047/Relay_Bot/tree/main)
 
 ---
 
@@ -164,7 +164,7 @@
 >   * Language : Python, C/C++  
 >   * Skill : ROS2, Docker, CARLA Simulator, Raspberry Pi, 멀티캐스트 통신  
 >
-> [프로젝트 상세 페이지](https://github.com/mmc47047/alphacar/blob/main/README.md)
+> 📂 [프로젝트 상세 페이지](https://github.com/mmc47047/alphacar/blob/main/README.md)
 
 ---
 
@@ -193,7 +193,7 @@
 >   * Language : C, Python  
 >   * Skill : STM32, Raspberry Pi, Bluetooth(HC-05), MariaDB, Linux, LCD1602  
 >
-> [프로젝트 상세 페이지](https://github.com/mmc47047/StudyCafeManager/tree/main)
+> 📂 [프로젝트 상세 페이지](https://github.com/mmc47047/StudyCafeManager/tree/main)
 
 ---
  
@@ -206,7 +206,7 @@
 >   * Language : C  
 >   * Skill : STM32, FreeRTOS, ADC, EXTI, LCD1602, Keypad, Buzzer  
 >
-> [프로젝트 상세 페이지](https://github.com/mmc47047/DeskManager/tree/main)
+> 📂 [프로젝트 상세 페이지](https://github.com/mmc47047/DeskManager/tree/main)
 
 
 ## 📬 연락처
